@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Kaczmarek Bartosz">
+
+  <link rel="stylesheet" href="static/style/style.css">
+  <link rel="stylesheet" href="static/style/style2.css">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>The Band</title>
+</head>
+
+<body>
+  <nav>
+    <div class="wrapper">
+      <input type="checkbox" id="input">
+      <label for="input" class="button">
+        <span class="text">
+          Menu
+        </span>
+        <span class="icon"></span>
+      </label>
+      <div class="menu-mobile">
+        <ul>
+          <li>
+            <a href="#">home</a>
+          </li>
+          <li>
+            <a href="#">band</a>
+          </li>
+          <li>
+            <a href="#">tour</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+          <li>
+            <a>more</a>
+            <ul class="menu-wrap">
+              <li>
+                <a href="#">Merchandise</a>
+              </li>
+              <li>
+                <a href="#">Extras</a>
+              </li>
+              <li>
+                <a href="#">Media</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <ul class="desktop-menu">
+      <li>
+        <a href="#">home</a>
+      </li>
+      <li>
+        <a href="#">band</a>
+      </li>
+      <li>
+        <a href="#">tour</a>
+      </li>
+      <li>
+        <a href="#">contact</a>
+      </li>
+      <li>
+        <a>more</a>
+        <ul class="menu-wrap">
+          <li>
+            <a href="#">Merchandise</a>
+          </li>
+          <li>
+            <a href="#">Extras</a>
+          </li>
+          <li>
+            <a href="#">Media</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="search">
+      <div class="loader"></div>
+    </div>
+  </nav>
+  <div class="banner">
+    <img class="slider" src="static/img/la.jpg" alt="">
+    <header>
+      <h1>Los Angeles</h1>
+      <p>
+        We had the best time playing at Venice Beach!
+      </p>
+    </header>
+  </div>
+
+  <article>
+    <h2>The band</h2>
+    <h3>We love music</h3>
+
+    <p>
+      We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+      deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </p>
+
+    <section class="portraits">
+      <figure class="portrait">
+        <figcaption class="portrait-title">Name</figcaption>
+      </figure>
+      <figure class="portrait">
+        <figcaption class="portrait-title">Name</figcaption>
+      </figure>
+      <figure class="portrait">
+        <figcaption class="portrait-title">Name</figcaption>
+      </figure>
+    </section>
+  </article>
+  <article class="dark-background">
+    <h2>Tour dates</h2>
+    <h3>Remember to book your tickets!</h3>
+
+    <ul class="tickets-list">
+      <li>
+        September
+        <mark>Sold out</mark>
+      </li>
+      <li>
+        October
+        <mark>Sold out</mark>
+      </li>
+      <li>
+        November
+        <div class="circle">
+          <span>3</span>
+        </div>
+      </li>
+    </ul>
+
+    <div class="cards">
+      <div class="card">
+        <img src="static/img/newyork.jpg" alt="New York">
+        <h4>New York</h4>
+        <h4 class="gray-heading">
+          Fri 27 Nov 2016
+        </h4>
+        <p>
+          Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+        </p>
+        <button>Buy Tickets</button>
+      </div>
+      <div class="card">
+        <img src="static/img/paris.jpg" alt="New York">
+        <h4>New York</h4>
+        <h4 class="gray-heading">
+          Fri 27 Nov 2016
+        </h4>
+        <p>
+          Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+        </p>
+        <button>Buy Tickets</button>
+      </div>
+      <div class="card">
+        <img src="static/img/sanfran.jpg" alt="New York">
+        <h4>New York</h4>
+        <h4 class="gray-heading">
+          Fri 27 Nov 2016
+        </h4>
+        <p>
+          Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+        </p>
+        <button>Buy Tickets</button>
+      </div>
+    </div>
+  </article>
+  <article>
+    <h2>Contact</h2>
+    <h3>Fan? Drop a note!</h3>
+    <div class="landscape">
+      <ul class="contact">
+        <li>
+          <i class="fas fa-map-marker-alt"></i>
+          Chicago, US
+        </li>
+        <li>
+          <i class="fas fa-phone"></i>
+          Phone: +00 151515
+        </li>
+        <li>
+          <i class="fas fa-envelope"></i>
+          E-mail: mail@mail.com
+        </li>
+      </ul>
+      <div class="contact-form">
+        <form>
+          <div class="horizontal-elements">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname" placeholder="Name">
+            <label for="address"></label>
+            <input type="text" id="address" name="address" placeholder="E-mail">
+          </div>
+          <label for="message"></label>
+          <input type="text" id="message" name="message" placeholder="Message">
+          
+          <button>SEND</button>
+        </form>
+      </div>
+    </div>
+  </article>
+  <div class="map">
+    <img src="static/img/map.jpg" alt="location">
+  </div>
+  <footer>
+    <div class="social-media">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-snapchat"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-twitter"></i>
+    </div>
+  </footer>
+
+  
+  <script src="/static/js/main.js"></script>
+</body>
+
+</html>
